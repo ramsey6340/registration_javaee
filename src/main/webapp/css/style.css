@@ -1,0 +1,102 @@
+h1{
+    text-align: center;
+}
+.form-login{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px gray;
+}
+.head-login{
+    background-color: #417690;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+.head-login p{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+.form-input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+label{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input{
+    width: 100%;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+input:focus{
+    border: 2px solid #417690;
+}
+form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.current-user{
+    font-size: 18px;
+    font-weight: bold;
+}
+.submit-button input {
+    border: none;
+    background-color: #609ab6;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+.home-page{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-page p{
+    font-size: 18px;
+}
+thead, tbody {
+    font-weight: bold;
+}
+.deconnexion {
+    width: 15%;
+    text-decoration: none;
+}
+.error-message {
+    color: red;
+    text-align: center
+}
+.go-page{
+    text-align: center;
+    color: black;
+    font-size: 18px;
+}
+table{
+    border-collapse: collapse;
+    width: 80%;
+}
+table td{
+    border: 1px solid black;
+}
+thead, tfoot{
+    background-color: #417690;
+    color: white;
+}
