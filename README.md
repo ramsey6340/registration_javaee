@@ -7,7 +7,7 @@ L'application a été crée avec l'IDE IntelliJ IDEA, ces etapes de configuratio
 
 <ol>
     <li>configuration de la JSTL:</li>
-    <p>Le repertoire src\main\webapp\WEB-INF\lib\taglibs-standard* correspondent aux librairies pour la JSTL, cependant, il est                 necessaire d'ajour une troisième, pour cela suivez les étapes suivante:</p>
+    <p>Le repertoire <strong>src\main\webapp\WEB-INF\lib\taglibs-standard*</strong> correspondent aux librairies pour la JSTL, cependant, il est necessaire d'ajour une troisième, pour cela suivez les étapes suivante:</p>
    <ul>
         <li>Cliquer sur le nom du projet puis sur la touche F4 pour ouvrir la structure du projet.<br></li>
         <li>Cliquer sur le symbole "+" pour ajouter une librairie.<br></li>
